@@ -1,0 +1,1147 @@
+
+
+<Information Security - Interview>
+
+#     incident  - an unexpected occurrence that requires immediate response and actions.
+      event 	 -  any activity is called event.
+      log 	 -  log file is a file that records events.
+
+
+IR (Incident Response) Steps:
+
+
++ proactive capabilities
+
+	preparation	  -   design. development and training. 
+	detection	  -   monitor network and system to detect alert and report.
+	analysis	  -   gather information and then prioritizing incident.
+               
+
++ responsive capabilities
+
+	containment 	-  is based on intelligence and IoC gathered during the analysis phase.
++ Coordinated Shutdown
++ Wipe and Rebuild								
+	eradicate  -  once identified the malicious actors.block the all communication channel. 
+	recover	   -  develop remediation strategy and roadmap. 
+                     		+ focus on resuming normal business operations.
+                     		+ develop a long-term risk mitigation strategy.
+                     		+ document the incident to improve IR plan.
+
+
+
+ # Incident Response 		
+
+		+ Respond to Network Security Incidents
+		+ Respond to Application Security Incidents
+		+ Respond to Email Security Incidents
+		+ Respond to Insider Incidents
+		+ Respond to Malware Incidents
+
+
+
+ # Three main components of SOC (Security Operation Center):
+
+	- people
++ SOC manager		
++ Analyst		
++ SOC Engineer | Operator 
+		
+	- process
+		+ Incident triage process
+		+ Incident reporting process
+		+ Incident analysis process
+		+ Incident closure process
+		+ Post incident activities process
+		+ Vulnerability discovery process
+		+ Vulnerability remediation and tracking
+
+	- technology
+		+ SIEM
+		+ EDR/XDR
+		+ IPS/IDS
+		+ Cyber Threat Intelligence Feeds and Databases
+		+ Vulnerability scanners
+		
+				
+ # Cybersecurity Threat is a malicious act that seeks to damage data. steal data or disrupt digital life in general. 
+	
+	10 Most Common Types of Cyber Threats
+	
+		+ Malware (spyware, ransomware, viruses and worms)
+		+ Phishing
+		+ Spear Phishing
+		+ MitM attack
+		+ Trojans
+		+ Ransomware
+		+ DDoS
+		+ Attacks on IoT Devices
+		+ Data Breaches		
+		
+		
+ # Level of Attacks
+ 
+		+ Application (GET Flood, Slow POST, Slowloris, SQL Injection)
+		+ Transport (SYN Flood, UDP Flood, DNS Query Flood, LAND Attack)
+		+ Network (IP Spoofing, Brute Force, Botnet, MiTM)
+		+ Data Link (Generating Forged Frame, Repeated Frame Header Flood)
+		+ Physical (Signal Jamming)
+		
+		
+ # Indicator of compromise (IoC) is an object or activity that indicates high probability of unauthorized access to the system.
+ 
+	List of indicators of compromise (IOCs) examples
+
+		+ Unusual Outbound Network Traffic
+		+ Anomalies in Privileged User Account Activity
+		+ Geographic Irregularities
+		+ Log-In Anomalies
+		+ Increased Volume in Database Read
+		+ HTML Response Size
+		+ A Large Number of Requests for the Same File
+		+ Mismatched Port-Application Traffic
+		+ Suspicious Registry
+		+ DNS Request Anomalies
+		
+
+ # Where do Log files come from?
+
+      + Applications
+      + Containers
+      + Databases
+      + Firewalls
+      + Endpoints
+      + IoT devices
+      + Networks
+      + Servers
+      + Web Services
+
+
+
+
+
+
+
+
+
+# Types of Logs - many types of logs exist, including 
+
+      + Event logs
+      + Server logs
+      + System logs
+      + Authorization logs and error/access logs
+      + Change logs
+      + Availability logs
+      + Resource logs
+      + Threat logs		
+		
+ # Reasons to Store and Analyze Centralized Logs
+ 
+		+ Centralized logs are indispensable to troubleshooting
+		+ Centralized logs help you proactively manage your network
+		+ Centralized logs help you deliver greater value
+		+ Centralized logs reduce the risk of losing data
+		+ Centralized logs improve your network security
+		
+			
+	
+ # Hacking Methodology
+
+		+ Reconnaissance 
+
+		  Types of Reconnaissance (Active Reconnaissance | Passive Reconnaissance)
+			- Information Gathering
+			- Determining the network range 
+			- Identifying the active machine
+			- Finding open ports and access points
+			- OS fingerprinting
+			- Fingerprinting Services 
+			- Mapping the Network 
+		
+		+ Scanning
+			- Which Servers are alive
+			- Specific IP address
+			- Operating System
+			- System Architecture
+			- Services running on each System		
+		
+		+ Gaining Access
+			- System Hacking
+			- Acquire Passwords
+			- Password Cracking Techniques
+			- Generate Rainbow Tables
+		
+		+ Maintaining Access
+		+ Covering Tracks
+		
+
+
+
+
+
+
+
+
+
+
+ # Incident Detection with SIEM
+ 
+		+ Application Level Incident Detection
+		+ Network Level Incident Detection
+		+ Host Level Incident Detection
+		+ Compliance
+		+ Handling Alert Triaging and Analysis
+		
+		
+ # Incident Detection with Threat Intelligence
+
+Threat intelligence is information that uses to understand the threats that have. will or are currently targeting the organization. This info is used to prepare. prevent and identify cyber threats for valuable resources..
+
+Four main types of threat intelligence are strategic ..  tactical..  technical and operational
+		
+	Threat Intelligence Platform
+
+		+ IBM X-Force Exchange
+		+ Anomali ThreatStream
+		+ SolarWinds Security Event Manager
+		+ Palo Alto Networks Cortex XSOAR TIM
+		+ LogRhythm Threat Lifecycle Management (TLM) Platform
+		+ Mandiant Threat Intelligence Suite
+		+ LookingGlass Cyber Solutions
+ 
+
+
+Threat Hunting is the practice of proactively searching for cyber threats that are undetected in a network.  cyber threat hunting digs deep to find malicious.
+	
+Threat hunting (TTP) is technique for threat hunting.
++ tactics 
++ techniques 
++ and procedures 
+
+
+Threat-Modeling
+
+	+ define objectives	
+	+ define technical scope
+	+ application decomposition	
+	+ threat analysis
+	+ vulnerability and weakness analysis
+	+ attack modeling
+	+ risk and impact Analysis
+
+
+ Cyber-Security Model:
+
+
+
+ 	+ advanced threat protection
+ 	+ network security
+ 	+ data security
+ 	+ infrastructure security
++ system security
+ 	+ application security
+ 	+ mobile security
+ 	+ risk governance and compliance
+
+
+
+
+<Governance | Risk and Compliance>
+
+Security Auditing:
+
+	+ soc 
+	+ incident management
+	+ change management 
+	+ hr security
+	+ network security 
+	+ backup and restoration
+	+ antivirus management			
+	+ it compliance				
+	+ it asset management
+	+ data center
+	+ endpoint security
+
+
+OS-Intelligence: its publicly available sources for collecting + analyzing and making decisions.	
+ + google dork
+		 + osintframework
+		 + shodan
+		 + maltego
+		 + the harvester
+		 + check useraname
+
+
+ NIST Framework: (ipdrr)			
+	
+		 + identity 	:	what process and asset need to protect
+		 + protect	:	safeguard to ensure protection 
+		 + detect	:	appropriate mechanism to identify occurance and incidents
+		 + response	:	develop techniques	
+		 + recover	:	appropriate process to restore capabilities and siem
+
+
+
+<PCI-DSS>PCI compliance helps businesses to reduce/minimize the risk of their payment system.
+
+12- step of pci-dss compliance checklist: 
+
+		- install and maintain a firewall to protect customer data
+		- dont use vendor-supplied default passwords
+		- protect stored card-holder data
+		- encrypt all transmission of cardholder data
+		- use and update anti-virus software
+		- develop and maintain secure systems and applications
+		- restrict accèss to cardholder data
+		- track and monitor user access
+		- restrict physical access to cardholder data
+		- track and monitor access to cardholder Data
+		- test Security systems and processes
+		- maintain a policy that addresses information security
+
+
+
+
+
+
+
+
+
+ 
+how to maintain pci-dss-compliance?
+
+	- perform ASV (approved scanning vendors)
+	- perform Penetration testing
+	- run data discovery tool to discover card data in plain text (sisa-tipper)
+	- train the professionals
+
+
+ pci dss compliance /ssf (software security framework): 
+
+	phase-1: (pre assessment phase)
+	phase-2: (assessment phase)
+	phase-3: (remediation phase)
+	phase-4: (certification phase)
+
+
+
+Malware: is any software intentionally designed to cause damage to a computer. server. client. or computer network. 
+
+a wide variety of malware types exist including computer viruses.. worms.. trojan horses.. ransomware.. spyware.. adware.. and scareware
+
+
+malware analyses tools:
+ 
+		- pestudio          			- wireshark					
+		- remnux			      	- fire-eye					
+		- resource hacker		       - file-alyzer					
+		- process hacker		       - procdot
+		- autoruns			       	- fiddler
+		- x64dbg		              - ghidra
+		- radare2/cutter	    		- cuckoo sandbox
+
+Malware-Analysis: is the process of understanding the behavior and purpose of a suspicious file or URL.the key benefit of malware analysis is that it helps "incident responders" and "security analysts"
+
+	- uncover hidden indicators of compromise (IOCs) that should be blocked
+	- improve the efficacy of IOC alerts and notifications
+				
+
+Malware Analysis Techniques:
+ 
+		- objective:			
+				- malware detection		
+				- malware similarity analysis
+				- malware category detection
+				
+		- feature:				
+				- feature extraction
+				- pe feature 
+				
+
+
+
+
+
+
+
+
+
+
+<PAM> (Privilege Access Management) : ManageServer-PAM360  | CyberARK
+
+ 	- Limit root access
+	- SIEM Integration  
+	- Multi Factor Authentication 
+	- Password Vault 
+	- Audit Trails for Compliance
+	
+
+<EDR> (Endpoint Detection and Response) security provides an integrated hub for the collection. correlation and analysis of endpoint data.
+
+as well as for coordinating alerts and responses to immediate threats. EDR tools have three basic components
+	
+	+ Endpoint Data Collection Agents
+	+ Automated Response
+	+ Analysis and Forensics
+	
+- Realtime Detection and Response (malware and rootkit detection)
+- Active Response using Firewall Policy benchmarking and support integrating with 3rd party applications
+- Data collection
+- Whitelist and blacklist
+
+	macafee.. crowdstrike falcon.. trend micro
+
+
+
+
+<DLP> (data loss prevention): makes sure that users do not send sensitive or critical information outside the corporate network. 
+
+sensitive data (credit card info.. intellectual property)is information that must be protect against unauthorized access. 
+
+or
+
+is a set of tools and processes used to ensure that sensitive data is not lost.. misused or accessed by unauthorized users..
+
+
+# how does dlp system works?
+
++ endpoint 	: data residing on desktop.. laptop.. usb storages
++ storage 	: unstructured data residing on a server or structure data residing on databases
++ network	: data that transmits or leaves the network to internet
++ cloud		: data residing on google drive.. mail..
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MITRE ATT&CK framework> is a attacker playbook — how they get in your system. how they move. what they do. what their end goals are and how it impacts your system. 
+
+MITRE ATT&CK currently lists 12 common tactics for the Enterprise ATT&CK Matrix with a total of 226 known adversarial techniques.
+
++ Initial Access 
++ Execution
++ Persistence
++ Privilege Escalation
++ Defense Evasion 
++ Credential Access 
++ Discovery 
++ Lateral Movement — techniques used to enter and control remote systems on a network from the already compromised host.
++ Collection
++ Command & Control 
++ Exfiltration 
++ Impact
+
+
+
+<Cyber Kill Chain>: its designed for defenders to improve their defenses by analyzing an attacker playbook and interrupting the attack by breaking the kill chain at each phase.
+
+Reconnaissance — Attackers gather information about their target. 
+
+Weaponization — Attackers now create an attack that exploits vulnerabilities found in reconnaissance. many leverage tools from metasploit, exploit-db, or a social engineering toolkit.
+
+Delivery — Once an attacker has chosen which tools are best suited to exploit your vulnerabilities, they will select their delivery method, be it phishing emails, infected USBs, or another method of choice.
+
+Exploitation — The weapon has been delivered. The attacker just needs to execute the attack, which could take the form of a SQL injection, a buffer overflow, RCE, as well as countless others.
+
+Installation — The attacker gains better access. Common adversarial techniques include executing powershell in fileless attacks, installing remote access tools (RAT), and DLL hijacking.
+
+Command & Control (C2) — The attacker now sets up persistent access to your system for remote manipulation. 
+
+Actions on Objectives — The attacker achieves their intrusion objective, e.g., data exfiltration, data destruction, or denial of service.
+
+
+
+
+
+
+
+
+
+
+
+<Reverse-Engineering> - with reverse engineering, we can accomplish several tasks related to cybersecurity. 
+
++ finding system vulnerabilities. 
++ researching malware and viruses.
++ analyzing the complexity of restoring core software algorithms that can further protect against theft...
+
+top reverse-engineering tools:  
+      + ida pro
+      + ghidra
+      + binary ninja
+      + hopper
+      + radare2
+      + apktool
+
+
+
+OWASP top 10:
++ Broken Access Control 
++ Cryptographic Failures
++ Injection 
++ Insecure Design
++ Security Misconfiguration 
++ Vulnerable and Outdated Components
++ Identification and Authentication Failures
++ Software and Data Integrity Failures 
++ Security Logging and Monitoring Failures
++ Server-Side Request Forgery
+
+
+Metasploit:
+
+
++ exploits: (aix  bsdi firefox irix   multi   solaris	  android    dialup  freebsd  linux  netware  unix  apple_ios  hpux  mainframe  osx  windows)
+				
++ auxiliary - include port scanners.. fuzzers.. sniffers and more. (admin   client   dos  gather  scanner  spoof  vsploit analyze  crawler  example.rb  parser  server  sqli  bnat  docx   fuzzers   pdf  sniffer  voip)
+	
++ payloads - consists of code that runs remotely..				
+		(singles  stagers  stages)
+	
++ encoders - encoders ensure that payloads make it to their destination intact. (cmd  generic  mipsbe  mipsle  php  ppc  ruby  sparc  x64  x86)
+				
++ nops - nops keep the payload sizes consistent across exploit attempts..	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PenTest Tools>
+
+#Information Gathering:
+
+ + active information gathering:touch the devices or talk with employee (vulnerability scan)
+ + passive information gathering:publicly available information (whois, nslookup, google dork)
+
+          dns analysis		   : dnsenum, dnsrecon, fierce
+          ips/ids Identification	   : wafwoof
+          live host identification  	   : arping, fping, hping3, masscan
+          network and port scanner 	   : nmap, masscan
+          osint analysis		   : maltego, theharvestor, recong-ng
+          route analysis 	          : netdiscover, netmask
+          smb analysis	          : enum4linux, nbtscan, smbmap
+          smtp analysis	          : swaks
+          snmp analysis	          : onesixtyone, snmp-check
+          ssl analysis      	          : sslscan, ssldump, sslh, sslyze
+          others		          : dmitry, ike-scan, legion
+
+
++sniffing and spoofing : wireshark, Ettercap, responder, netsniff-ng, mimtproxy, tcpreply and macchanger
+     
++web application analysis : 
+          cms and framework identification	    	 :  wpscan, nmap, and metasploit
+          web application proxies		        :  brup suite, zap
+          web crawlers and directory 		 :  brute force dirb, dirbuster, wfuzz
+          web application scanners		        :  burp suite, sqlmap,  zap, davtest, cadaver, nikto
+          
+
++database assessment				:  sqlite database browser, sqlmap
++password attacks:	
+          offline	        		:  jhon, hashcat, ophcrack
+          online              		:  hydra, ncrack and medusa
+          passing the hash	 		:  mimikatz
+          password profiling and wordlist   :  cewl, crunch, rsmangler
+
+
++wireless attacks  :  aircrack-ng, bully, tern wifi cracker, kismet, pixiewps, reaver, wifite
++exploitation tools : metasploit, msfvenom, searchsploit, routerspolit 
+
++post-exploitation tools: 
+          	os-backdoors			:  powersploit, dbd, sdb
+          	tunneling and exfiltration	:  proxychains, proxytunnel, ptunnel, dns2tcpc
+
+ +web backdoors: 
+          Weevely, laudanum			: (ls –l /usr/share/landanum)	> aps, aspx, php, jsp
+
+
+
+
+	
+
+
+
+
+#     incident  - an unexpected occurrence that requires immediate response and actions.
+      event 	 -  any activity is called event.
+      log 	 -  log file is a file that records events.
+
+
+IR (Incident Response) Steps:
+
+
++ proactive capabilities
+
+	preparation	  -   design. development and training. 
+	detection	  -   monitor network and system to detect alert and report.
+	analysis	  -   gather information and then prioritizing incident.
+               
+
++ responsive capabilities
+
+	containment 	-  is based on intelligence and IoC gathered during the analysis phase.
++ Coordinated Shutdown
++ Wipe and Rebuild								
+	eradicate  -  once identified the malicious actors.block the all communication channel. 
+	recover	   -  develop remediation strategy and roadmap. 
+                     		+ focus on resuming normal business operations.
+                     		+ develop a long-term risk mitigation strategy.
+                     		+ document the incident to improve IR plan.
+
+
+
+ # Incident Response 		
+
+		+ Respond to Network Security Incidents
+		+ Respond to Application Security Incidents
+		+ Respond to Email Security Incidents
+		+ Respond to Insider Incidents
+		+ Respond to Malware Incidents
+
+
+
+ # Three main components of SOC (Security Operation Center):
+
+	- people
++ SOC manager		
++ Analyst		
++ SOC Engineer | Operator 
+		
+	- process
+		+ Incident triage process
+		+ Incident reporting process
+		+ Incident analysis process
+		+ Incident closure process
+		+ Post incident activities process
+		+ Vulnerability discovery process
+		+ Vulnerability remediation and tracking
+
+	- technology
+		+ SIEM
+		+ EDR/XDR
+		+ IPS/IDS
+		+ Cyber Threat Intelligence Feeds and Databases
+		+ Vulnerability scanners
+		
+				
+ # Cybersecurity Threat is a malicious act that seeks to damage data. steal data or disrupt digital life in general. 
+	
+	10 Most Common Types of Cyber Threats
+	
+		+ Malware (spyware, ransomware, viruses and worms)
+		+ Phishing
+		+ Spear Phishing
+		+ MitM attack
+		+ Trojans
+		+ Ransomware
+		+ DDoS
+		+ Attacks on IoT Devices
+		+ Data Breaches		
+		
+		
+ # Level of Attacks
+ 
+		+ Application (GET Flood, Slow POST, Slowloris, SQL Injection)
+		+ Transport (SYN Flood, UDP Flood, DNS Query Flood, LAND Attack)
+		+ Network (IP Spoofing, Brute Force, Botnet, MiTM)
+		+ Data Link (Generating Forged Frame, Repeated Frame Header Flood)
+		+ Physical (Signal Jamming)
+		
+		
+ # Indicator of compromise (IoC) is an object or activity that indicates high probability of unauthorized access to the system.
+ 
+	List of indicators of compromise (IOCs) examples
+
+		+ Unusual Outbound Network Traffic
+		+ Anomalies in Privileged User Account Activity
+		+ Geographic Irregularities
+		+ Log-In Anomalies
+		+ Increased Volume in Database Read
+		+ HTML Response Size
+		+ A Large Number of Requests for the Same File
+		+ Mismatched Port-Application Traffic
+		+ Suspicious Registry
+		+ DNS Request Anomalies
+		
+
+ # Where do Log files come from?
+
+      + Applications
+      + Containers
+      + Databases
+      + Firewalls
+      + Endpoints
+      + IoT devices
+      + Networks
+      + Servers
+      + Web Services
+
+
+
+
+
+
+
+
+
+# Types of Logs - many types of logs exist, including 
+
+      + Event logs
+      + Server logs
+      + System logs
+      + Authorization logs and error/access logs
+      + Change logs
+      + Availability logs
+      + Resource logs
+      + Threat logs		
+		
+ # Reasons to Store and Analyze Centralized Logs
+ 
+		+ Centralized logs are indispensable to troubleshooting
+		+ Centralized logs help you proactively manage your network
+		+ Centralized logs help you deliver greater value
+		+ Centralized logs reduce the risk of losing data
+		+ Centralized logs improve your network security
+		
+			
+	
+ # Hacking Methodology
+
+		+ Reconnaissance 
+
+		  Types of Reconnaissance (Active Reconnaissance | Passive Reconnaissance)
+			- Information Gathering
+			- Determining the network range 
+			- Identifying the active machine
+			- Finding open ports and access points
+			- OS fingerprinting
+			- Fingerprinting Services 
+			- Mapping the Network 
+		
+		+ Scanning
+			- Which Servers are alive
+			- Specific IP address
+			- Operating System
+			- System Architecture
+			- Services running on each System		
+		
+		+ Gaining Access
+			- System Hacking
+			- Acquire Passwords
+			- Password Cracking Techniques
+			- Generate Rainbow Tables
+		
+		+ Maintaining Access
+		+ Covering Tracks
+		
+
+
+
+
+
+
+
+
+
+
+ # Incident Detection with SIEM
+ 
+		+ Application Level Incident Detection
+		+ Network Level Incident Detection
+		+ Host Level Incident Detection
+		+ Compliance
+		+ Handling Alert Triaging and Analysis
+		
+		
+ # Incident Detection with Threat Intelligence
+
+Threat intelligence is information that uses to understand the threats that have. will or are currently targeting the organization. This info is used to prepare. prevent and identify cyber threats for valuable resources..
+
+Four main types of threat intelligence are strategic ..  tactical..  technical and operational
+		
+	Threat Intelligence Platform
+
+		+ IBM X-Force Exchange
+		+ Anomali ThreatStream
+		+ SolarWinds Security Event Manager
+		+ Palo Alto Networks Cortex XSOAR TIM
+		+ LogRhythm Threat Lifecycle Management (TLM) Platform
+		+ Mandiant Threat Intelligence Suite
+		+ LookingGlass Cyber Solutions
+ 
+
+
+Threat Hunting is the practice of proactively searching for cyber threats that are undetected in a network.  cyber threat hunting digs deep to find malicious.
+	
+Threat hunting (TTP) is technique for threat hunting.
++ tactics 
++ techniques 
++ and procedures 
+
+
+Threat-Modeling
+
+	+ define objectives	
+	+ define technical scope
+	+ application decomposition	
+	+ threat analysis
+	+ vulnerability and weakness analysis
+	+ attack modeling
+	+ risk and impact Analysis
+
+
+ Cyber-Security Model:
+
+
+
+ 	+ advanced threat protection
+ 	+ network security
+ 	+ data security
+ 	+ infrastructure security
++ system security
+ 	+ application security
+ 	+ mobile security
+ 	+ risk governance and compliance
+
+
+
+
+<Governance | Risk and Compliance>
+
+Security Auditing:
+
+	+ soc 
+	+ incident management
+	+ change management 
+	+ hr security
+	+ network security 
+	+ backup and restoration
+	+ antivirus management			
+	+ it compliance				
+	+ it asset management
+	+ data center
+	+ endpoint security
+
+
+OS-Intelligence: its publicly available sources for collecting + analyzing and making decisions.	
+ + google dork
+		 + osintframework
+		 + shodan
+		 + maltego
+		 + the harvester
+		 + check useraname
+
+
+ NIST Framework: (ipdrr)			
+	
+		 + identity 	:	what process and asset need to protect
+		 + protect	:	safeguard to ensure protection 
+		 + detect	:	appropriate mechanism to identify occurance and incidents
+		 + response	:	develop techniques	
+		 + recover	:	appropriate process to restore capabilities and siem
+
+
+
+<PCI-DSS>PCI compliance helps businesses to reduce/minimize the risk of their payment system.
+
+12- step of pci-dss compliance checklist: 
+
+		- install and maintain a firewall to protect customer data
+		- dont use vendor-supplied default passwords
+		- protect stored card-holder data
+		- encrypt all transmission of cardholder data
+		- use and update anti-virus software
+		- develop and maintain secure systems and applications
+		- restrict accèss to cardholder data
+		- track and monitor user access
+		- restrict physical access to cardholder data
+		- track and monitor access to cardholder Data
+		- test Security systems and processes
+		- maintain a policy that addresses information security
+
+
+
+
+
+
+
+
+
+ 
+how to maintain pci-dss-compliance?
+
+	- perform ASV (approved scanning vendors)
+	- perform Penetration testing
+	- run data discovery tool to discover card data in plain text (sisa-tipper)
+	- train the professionals
+
+
+ pci dss compliance /ssf (software security framework): 
+
+	phase-1: (pre assessment phase)
+	phase-2: (assessment phase)
+	phase-3: (remediation phase)
+	phase-4: (certification phase)
+
+
+
+Malware: is any software intentionally designed to cause damage to a computer. server. client. or computer network. 
+
+a wide variety of malware types exist including computer viruses.. worms.. trojan horses.. ransomware.. spyware.. adware.. and scareware
+
+
+malware analyses tools:
+ 
+		- pestudio          			- wireshark					
+		- remnux			      	- fire-eye					
+		- resource hacker		       - file-alyzer					
+		- process hacker		       - procdot
+		- autoruns			       	- fiddler
+		- x64dbg		              - ghidra
+		- radare2/cutter	    		- cuckoo sandbox
+
+Malware-Analysis: is the process of understanding the behavior and purpose of a suspicious file or URL.the key benefit of malware analysis is that it helps "incident responders" and "security analysts"
+
+	- uncover hidden indicators of compromise (IOCs) that should be blocked
+	- improve the efficacy of IOC alerts and notifications
+				
+
+Malware Analysis Techniques:
+ 
+		- objective:			
+				- malware detection		
+				- malware similarity analysis
+				- malware category detection
+				
+		- feature:				
+				- feature extraction
+				- pe feature 
+				
+
+
+
+
+
+
+
+
+
+
+<PAM> (Privilege Access Management) : ManageServer-PAM360  | CyberARK
+
+ 	- Limit root access
+	- SIEM Integration  
+	- Multi Factor Authentication 
+	- Password Vault 
+	- Audit Trails for Compliance
+	
+
+<EDR> (Endpoint Detection and Response) security provides an integrated hub for the collection. correlation and analysis of endpoint data.
+
+as well as for coordinating alerts and responses to immediate threats. EDR tools have three basic components
+	
+	+ Endpoint Data Collection Agents
+	+ Automated Response
+	+ Analysis and Forensics
+	
+- Realtime Detection and Response (malware and rootkit detection)
+- Active Response using Firewall Policy benchmarking and support integrating with 3rd party applications
+- Data collection
+- Whitelist and blacklist
+
+	macafee.. crowdstrike falcon.. trend micro
+
+
+
+
+<DLP> (data loss prevention): makes sure that users do not send sensitive or critical information outside the corporate network. 
+
+sensitive data (credit card info.. intellectual property)is information that must be protect against unauthorized access. 
+
+or
+
+is a set of tools and processes used to ensure that sensitive data is not lost.. misused or accessed by unauthorized users..
+
+
+# how does dlp system works?
+
++ endpoint 	: data residing on desktop.. laptop.. usb storages
++ storage 	: unstructured data residing on a server or structure data residing on databases
++ network	: data that transmits or leaves the network to internet
++ cloud		: data residing on google drive.. mail..
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MITRE ATT&CK framework> is a attacker playbook — how they get in your system. how they move. what they do. what their end goals are and how it impacts your system. 
+
+MITRE ATT&CK currently lists 12 common tactics for the Enterprise ATT&CK Matrix with a total of 226 known adversarial techniques.
+
++ Initial Access 
++ Execution
++ Persistence
++ Privilege Escalation
++ Defense Evasion 
++ Credential Access 
++ Discovery 
++ Lateral Movement — techniques used to enter and control remote systems on a network from the already compromised host.
++ Collection
++ Command & Control 
++ Exfiltration 
++ Impact
+
+
+
+<Cyber Kill Chain>: its designed for defenders to improve their defenses by analyzing an attacker playbook and interrupting the attack by breaking the kill chain at each phase.
+
+Reconnaissance — Attackers gather information about their target. 
+
+Weaponization — Attackers now create an attack that exploits vulnerabilities found in reconnaissance. many leverage tools from metasploit, exploit-db, or a social engineering toolkit.
+
+Delivery — Once an attacker has chosen which tools are best suited to exploit your vulnerabilities, they will select their delivery method, be it phishing emails, infected USBs, or another method of choice.
+
+Exploitation — The weapon has been delivered. The attacker just needs to execute the attack, which could take the form of a SQL injection, a buffer overflow, RCE, as well as countless others.
+
+Installation — The attacker gains better access. Common adversarial techniques include executing powershell in fileless attacks, installing remote access tools (RAT), and DLL hijacking.
+
+Command & Control (C2) — The attacker now sets up persistent access to your system for remote manipulation. 
+
+Actions on Objectives — The attacker achieves their intrusion objective, e.g., data exfiltration, data destruction, or denial of service.
+
+
+
+
+
+
+
+
+
+
+
+<Reverse-Engineering> - with reverse engineering, we can accomplish several tasks related to cybersecurity. 
+
++ finding system vulnerabilities. 
++ researching malware and viruses.
++ analyzing the complexity of restoring core software algorithms that can further protect against theft...
+
+top reverse-engineering tools:  
+      + ida pro
+      + ghidra
+      + binary ninja
+      + hopper
+      + radare2
+      + apktool
+
+
+
+OWASP top 10:
++ Broken Access Control 
++ Cryptographic Failures
++ Injection 
++ Insecure Design
++ Security Misconfiguration 
++ Vulnerable and Outdated Components
++ Identification and Authentication Failures
++ Software and Data Integrity Failures 
++ Security Logging and Monitoring Failures
++ Server-Side Request Forgery
+
+
+Metasploit:
+
+
++ exploits: (aix  bsdi firefox irix   multi   solaris	  android    dialup  freebsd  linux  netware  unix  apple_ios  hpux  mainframe  osx  windows)
+				
++ auxiliary - include port scanners.. fuzzers.. sniffers and more. (admin   client   dos  gather  scanner  spoof  vsploit analyze  crawler  example.rb  parser  server  sqli  bnat  docx   fuzzers   pdf  sniffer  voip)
+	
++ payloads - consists of code that runs remotely..				
+		(singles  stagers  stages)
+	
++ encoders - encoders ensure that payloads make it to their destination intact. (cmd  generic  mipsbe  mipsle  php  ppc  ruby  sparc  x64  x86)
+				
++ nops - nops keep the payload sizes consistent across exploit attempts..	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PenTest Tools>
+
+#Information Gathering:
+
+ + active information gathering:touch the devices or talk with employee (vulnerability scan)
+ + passive information gathering:publicly available information (whois, nslookup, google dork)
+
+          dns analysis		   : dnsenum, dnsrecon, fierce
+          ips/ids Identification	   : wafwoof
+          live host identification  	   : arping, fping, hping3, masscan
+          network and port scanner 	   : nmap, masscan
+          osint analysis		   : maltego, theharvestor, recong-ng
+          route analysis 	          : netdiscover, netmask
+          smb analysis	          : enum4linux, nbtscan, smbmap
+          smtp analysis	          : swaks
+          snmp analysis	          : onesixtyone, snmp-check
+          ssl analysis      	          : sslscan, ssldump, sslh, sslyze
+          others		          : dmitry, ike-scan, legion
+
+
++sniffing and spoofing : wireshark, Ettercap, responder, netsniff-ng, mimtproxy, tcpreply and macchanger
+     
++web application analysis : 
+          cms and framework identification	    	 :  wpscan, nmap, and metasploit
+          web application proxies		        :  brup suite, zap
+          web crawlers and directory 		 :  brute force dirb, dirbuster, wfuzz
+          web application scanners		        :  burp suite, sqlmap,  zap, davtest, cadaver, nikto
+          
+
++database assessment				:  sqlite database browser, sqlmap
++password attacks:	
+          offline	        		:  jhon, hashcat, ophcrack
+          online              		:  hydra, ncrack and medusa
+          passing the hash	 		:  mimikatz
+          password profiling and wordlist   :  cewl, crunch, rsmangler
+
+
++wireless attacks  :  aircrack-ng, bully, tern wifi cracker, kismet, pixiewps, reaver, wifite
++exploitation tools : metasploit, msfvenom, searchsploit, routerspolit 
+
++post-exploitation tools: 
+          	os-backdoors			:  powersploit, dbd, sdb
+          	tunneling and exfiltration	:  proxychains, proxytunnel, ptunnel, dns2tcpc
+
+ +web backdoors: 
+          Weevely, laudanum			: (ls –l /usr/share/landanum)	> aps, aspx, php, jsp
